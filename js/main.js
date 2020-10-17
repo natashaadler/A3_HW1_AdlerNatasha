@@ -32,6 +32,7 @@
       courseTiming = document.getElementById("courseTiming")
       courseName.innerHTML = data["coursename"] + "-" + data["coursecode"]
       profName.innerHTML = "Professor - " + data["profname"]
+      courseTiming.innerHTML = data["classtime"][0] + " - " + data["classtime"][1]
       //courseTiming.innerHTML = "<li><i class="fa fa-clock-o" aria-hidden="true"></i>" + data["classtime"][0] + "</li> <li><i class="fa fa-clock-o" aria-hidden="true"></i>" + data["classtime"][1] + "</li>"
     }
   
